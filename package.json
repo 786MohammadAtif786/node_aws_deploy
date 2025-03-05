@@ -1,0 +1,16 @@
+{
+  "name": "aws-deploy",
+  "version": "1.0.0",
+  "description": "nodejs aws deployment by github actions ci/cd pipline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammad Atif",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
